@@ -96,6 +96,7 @@ namespace Assignment2
             int d;
             d = Convert.ToInt32(!(30 < 20));
             Console.WriteLine(d);
+            // Correct answer: A value 1 will be assigned to d.
         }
         #endregion
 
@@ -103,6 +104,7 @@ namespace Assignment2
         static void Question9()
         {
             Console.WriteLine(13 / 2 + " " + 13 % 2);
+            // Correct answer: 6 1
         }
         #endregion
 
@@ -115,6 +117,7 @@ namespace Assignment2
                 Console.WriteLine(++num + z++ + " " + ++z);
             else
                 Console.WriteLine(--num + z-- + " " + --z);
+            // Correct answer: 7 7
         }
         #endregion
     }
